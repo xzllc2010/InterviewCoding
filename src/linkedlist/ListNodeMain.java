@@ -8,7 +8,9 @@ public class ListNodeMain {
     public static void main(String[] args) {
         ListNode headNode = initLinkedList();
 
-
+        ReverseLinkedList rll = new ReverseLinkedList();
+        ListNode tmpNode = rll.reverse(headNode);
+        PrintLinkedList(tmpNode);
     }
 
     public static void PrintLinkedList(ListNode headNode) {
