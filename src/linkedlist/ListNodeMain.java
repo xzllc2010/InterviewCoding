@@ -16,6 +16,10 @@ public class ListNodeMain {
 
     }
 
+    public static ListNode mergeSortedList(ListNode head1, ListNode head2){
+
+    }
+
     public static void printListReverse(ListNode head){
         if(head == null){
             return;
